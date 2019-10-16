@@ -3,7 +3,7 @@ import sys, subprocess
 
 n = int(input("Ready to create a file-system on your Desktop?\nYES(1) NO(0)"))
 
-add_to_path = [ "\\UNI2" ,"\\2019" ,  "\\Aup", "\\lab_darbi"]
+add_to_path = ["\\Aup", "\\lab_darbi"]
 
 path = os.path.expanduser('~/Desktop')
 
