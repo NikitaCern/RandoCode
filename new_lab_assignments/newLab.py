@@ -6,7 +6,7 @@ downloads_folder = os.path.expanduser('~/Downloads')
 
 desktop_path = os.path.expanduser('~/Desktop')
 
-work_folder = "\\UNI\\2019\\Aup\\lab_darbi"
+work_folder = "Aup\\lab_darbi"
 
 file_name = "AuPLa"
 
