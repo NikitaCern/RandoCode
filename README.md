@@ -9,4 +9,4 @@
 
 ## Insert Generator
 
-- **gen.py** - Generates inserts, if you want to change the output values change line 49, if you want to change the amount change the range on line 48
+- **gen.py** - Generates inserts, if you want to change the output values change line 57, if you want to change the amount change the range on line 56
