@@ -44,6 +44,21 @@ def phone_number():
     
 def price():
     return random.randint(10,5000)/100
-    
+
+#uncomment this if you want to output to a file
+"""
+orig_stdout = sys.stdout
+file.open('out.txt', 'w')
+sys.stdout = file
+"""
+#uncomment till here
+
 for x in range(0,1000):
     print("INSERT INTO Lietotajs(Vards, Uzvards, PersonasKods, Datums, TelNr, Cena) VALUES('" + name() + "','"+ surname() + "','" +personal_code() + "','" + date() + "','" + phone_number() + "'," + str(price()) + ");")
+
+#uncomment this if you want to output to a file
+"""
+sys.stdout = orig_stdout
+file.close()
+"""
+#uncomment till here
