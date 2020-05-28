@@ -27,7 +27,7 @@ def personal_code():
     day = random.randint(1,31)
     month = random.randint(1,12)
     year = random.randint(0,99)
-    first_part = str(year) + "-"+format(month, '02') + "-" + format(day, '02')
+    first_part = str(year) + format(month, '02') + format(day, '02')
     
     first_number= random.randint(1,2)
     other_numbers= random.randint(1,9999)
